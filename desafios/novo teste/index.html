@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulário Interativo em Inglês</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Vocabulário Interativo em Inglês</h1>
+    </header>
+    <main>
+        <section id="vocabulary">
+            <h2>Lista de Palavras</h2>
+            <ul id="word-list">
+                <!-- Lista será preenchida dinamicamente -->
+            </ul>
+            <h3>Adicionar Nova Palavra</h3>
+            <form id="add-word-form">
+                <label for="english-word">Palavra em Inglês:</label>
+                <input type="text" id="english-word" required>
+                <label for="portuguese-word">Tradução em Português:</label>
+                <input type="text" id="portuguese-word" required>
+                <button type="submit">Adicionar Palavra</button>
+            </form>
+        </section>
+        <section id="quiz">
+            <h2>Quiz</h2>
+            <p id="question">Selecione uma opção:</p>
+            <div id="quiz-options">
+                <!-- Opções de quiz serão preenchidas dinamicamente -->
+            </div>
+            <p id="quiz-result"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Projeto Educacional</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
