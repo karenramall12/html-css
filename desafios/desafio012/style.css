@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+
+
+
+h1{
+    background-color: black;
+    color: #FFFFFF;
+    text-align: center;
+    padding:70px ;
+    margin: 0px 0px 0px 0px;
+
+}
+
+body{
+    background-color: white;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+.sriracha-regular {
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+ 
+
+ }
+  section.normal{
+    background-color: #FFFFFF;
+
+  }
+  section.foto1{
+    background-image: url(imagens/background001.jpg);
+    width: 100%;
+    left: top;
+
+  }
+  section.foto2{
+    background-image: url(imagens/background002.jpg);
+  }
+  p{
+    color: black;
+    font-family: 'Sriracha';
+  }
