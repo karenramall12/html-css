@@ -1,43 +1,98 @@
 @charset "UTF-8";
 
-
-
-
+*{
+margin: 0px;
+padding: 0px;
+}
 h1{
+  background-color: black;
+  color: #FFFFFF;
+  text-align: center;
+  padding:70px ;
+  margin: 0px 0px 0px 0px;
+
+}
+
+html, body{
+min-height: 100vh;
+background-color: white;
+}
+
+header{
+background-color: black;
+color: white;
+text-align: center;
+
+
+}
+
+header > h1{
+padding-top: 50px;
+font-variant: small-caps;
+}
+
+header >p{
+padding-bottom: 50px;
+
+
+}
+header a,  footer a{
+color: white;
+text-decoration:none ;
+font-weight:bolder;
+}
+
+header a:hover, footer a :hover{
+text-decoration: underline;
+
+}
+section{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 2em;
+  padding-left: 30px;
+
+}
+section.normal{
+  background-image: url(imagens/background001.jpg);
+  width: 100%;
+  left: top;
+  
+  }
+  section.imagem{
+  background-image: url(imagens/background002.jpg);
+
+  }
+  section.imagem{
     background-color: black;
-    color: #FFFFFF;
-    text-align: center;
-    padding:70px ;
-    margin: 0px 0px 0px 0px;
+    width: 400px;
+  }
 
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+ 
 }
 
-body{
-    background-color: white;
-    
-}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 .sriracha-regular {
-    font-family: "Sriracha", cursive;
-    font-weight: 400;
-    font-style: normal;
- 
+font-family: "Sriracha", cursive;
+font-weight: 400;
+font-style: normal;
 
- }
-  section.normal{
-    background-color: #FFFFFF;
 
-  }
-  section.foto1{
-    background-image: url(imagens/background001.jpg);
-    width: 100%;
-    left: top;
+}
+section.normal{
+background-color: #FFFFFF;
 
-  }
-  section.foto2{
-    background-image: url(imagens/background002.jpg);
-  }
-  p{
-    color: black;
-    font-family: 'Sriracha';
-  }
+}
+
+p{
+color: black;
+font-family: 'Sriracha';
+}
