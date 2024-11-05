@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de teste </title>
+    <style>
+        body{
+        
+        background-color: rgb(232, 232, 237);
+        color:black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.3em;
+        margin: auto;
+       
+        }
+      
+       table{
+        border-collapse:collapse;
+       }
+       th, th,td{
+        border: solid 1px black;
+       
+       }
+       th, #cor1 {
+        background-color: rgba(72, 69, 69, 0.741);
+        color: white;
+       }
+    </style>
+
+</head>
+<body>
+    <h1>Isso é um teste</h1>
+    <table>
+        <caption>Notas</caption>
+        <tr>
+            <th scope="col" rowspan="2">Área</th>
+            <th scope="col" rowspan="2">Diciplinas</th>
+            <th scope="col"colspan="2">Notas</th>
+            <th scope="col" rowspan="2">Média</th>
+        </tr>
+    
+        <tr>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+        </tr>
+    
+        <tr>
+           <td rowspan="4">Exatas</td>
+           <td>Matematica</td>
+           <td>10</td>
+           <td>8</td>
+           <td>17</td>
+    
+        </tr>
+    
+        <tr>
+           <td>Fisica</td>
+           <td>10</td>
+           <td>8</td>
+           <td>17</td>
+        </tr>
+    
+        <tr>
+           <td>Quimica</td>
+           <td>10</td>
+           <td>8</td>
+           <td>17</td>
+        </tr>
+    
+        
+        <tr>
+            <td>Biologia</td>
+            <td>10</td>
+            <td>8</td>
+            <td>17</td>
+         </tr>
+    
+         <tr id="cor1">
+            <td colspan="4">Média de Exatas</td>
+            <td>23</td>
+         </tr>
+    
+         <tr>
+            <td rowspan="2">Humanas</td>
+            <td>Historia</td>
+            <td>0.2</td>
+            <td>8</td>
+            <td>7</td>
+         </tr>
+    
+         <tr>
+            <td>Geografia</td>
+            <td>9</td>
+            <td>1.0</td>
+            <td>10</td>
+           
+         </tr>
+         <tr id="cor1">
+            <td colspan="4">Média de Humanas</td>
+            <td>23</td>
+         </tr>
+    
+       </table>
+    
+</body>
+</html>
