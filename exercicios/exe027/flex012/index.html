@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexible Box</title>
+    <title>Flexible Boox</title>
     <style>
         div.conteiner{
             background-color: bisque;
@@ -14,30 +14,30 @@
             div.item{
                 background-color: aquamarine;
                 border: 1px solid black;
+              
                 text-align: center;
-             
-                
-            
+               
             }
             div#cxA{
-               
-
+                flex: 1 0 200px;
+              
             }
+        
             div#cxB{
-                
-
+                flex: 1 150 200px;
             }
+        
             div#cxC{
-               
-            }
+                flex: 1 8 auto;
 
+            }
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
+        <div class="item" id="cxA">A</div>
+        <div class="item" id="cxB">B</div>
+        <div class="item" id="cxC">C</div>
        
 
     </div>
